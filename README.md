@@ -1,90 +1,117 @@
 # nanoKONTROL2 Mixer
 
-Regel het volume van je programma's in Windows met de schuifregelaars van je **Korg nanoKONTROL2**.
-Spotify zachter, Discord harder, game dempen: gewoon met een schuifje, zonder te alt-tabben.
+Control the volume of your Windows programs with the faders and knobs of your **Korg nanoKONTROL2**.
+Spotify quieter, Discord louder, game muted: just move a fader, no alt-tabbing.
 
-Simpel, helemaal in het Nederlands, en hij draait onzichtbaar op de achtergrond.
+Simple, and it runs invisibly in the background.
 
----
-
-## ⬇️ Downloaden
-
-Ga naar **[Releases](../../releases/latest)** en download **`nanoKONTROL2-Mixer-Setup-x.x.x.exe`**.
-
-## ✅ Wat heb je nodig?
-
-- Windows 10 of 11 (64-bit)
-- Een Korg nanoKONTROL2 (via USB aangesloten)
-
-Je hoeft geen drivers of andere programma's te installeren.
+> **Note:** the app itself is in Dutch. Labels from the app are shown below as **Dutch label** *(English meaning)*.
 
 ---
 
-## 🛠️ Installeren
+## ⬇️ Download
 
-1. Dubbelklik op het gedownloade bestand.
-2. Krijg je de blauwe melding **"Windows heeft uw pc beschermd"**?
-   Klik op **Meer info** → **Toch uitvoeren**.
-   *(Dit komt doordat het programma geen betaalde digitale handtekening heeft. Het is veilig.)*
-3. De mixer wordt meteen geïnstalleerd en opent vanzelf.
+Go to **[Releases](../../releases/latest)** and download **`nanoKONTROL2-Mixer-Setup-x.x.x.exe`**.
 
-Er komt een snelkoppeling op je bureaublad en in het Startmenu.
+## ✅ Requirements
+
+- Windows 10 or 11 (64-bit)
+- A Korg nanoKONTROL2 (connected via USB)
+
+No drivers or other software needed.
 
 ---
 
-## 🎚️ Gebruiken
+## 🛠️ Installation
 
-1. Sluit je nanoKONTROL2 aan. Rechtsboven in het venster wordt het lampje **groen**.
-2. Kies bij elke schuifregelaar (**Schuif 1 t/m 8**) een programma uit de lijst.
-3. Klaar!
+1. Double-click the downloaded file.
+2. Do you see the blue **"Windows protected your PC"** message?
+   Click **More info** → **Run anyway**.
+   *(This happens because the program has no paid digital signature. It is safe.)*
+3. The mixer installs right away and opens by itself.
 
-| Op de nanoKONTROL2 | Wat het doet |
+A shortcut is added to your desktop and Start menu.
+
+---
+
+## 🎚️ Usage
+
+1. Plug in your nanoKONTROL2. The light in the top right of the window turns **green**.
+2. For each channel, pick a program from the list for the fader (**Schuif**) and, if you like, for the knob (**Draaiknop**).
+3. Done!
+
+| On the nanoKONTROL2 | What it does |
 |---|---|
-| **Schuifregelaar** | Volume van het gekozen programma |
-| **M-knop** | Dempen aan/uit |
+| **Fader** | Volume of the chosen program |
+| **Knob** | Volume of a second program (chosen at the top of each channel) |
+| **M button** | Mute on/off |
+| **S button** | Solo: mute all other programs (press again to undo) |
+| **R button** | Mute the knob's program |
+| **▶ (Play)** | Play / pause |
+| **■ (Stop)** | Stop |
+| **◀◀ and ▶▶** | Previous / next track |
+| **Track ◀ and ▶** | Previous / next track |
 
-Je kunt ook kiezen voor **Hoofdvolume (alles)** of **Systeemgeluiden**.
-Je keuzes worden onthouden.
+These are the defaults. Use **Knoppen instellen** *(button settings)* in the top right to choose what each S, R and transport button does, for example:
 
-### Op de achtergrond
+- Mute the master volume, or master volume +5% / −5%
+- **Schuif → programma dat voorop staat** *(fader → program in front)*: click into a program (e.g. a game), press the button, and that fader controls that program from then on.
+- Switch the output device (see below)
 
-- Klik je op het **kruisje**, dan verdwijnt het venster maar blijft de mixer gewoon werken.
-- Je vindt hem terug als **blauw rondje met schuifjes** rechtsonder bij de klok (eventueel achter het pijltje **^**).
-- **Klik** op het icoontje om het venster te openen.
-- **Rechtsklik** → **Afsluiten** om de mixer echt te stoppen.
-- Zet onderaan het vinkje **"Automatisch starten met Windows"** aan, dan hoef je er nooit meer naar om te kijken.
+The transport buttons act like the media keys on a keyboard, so they work with Spotify, YouTube, VLC and most other players.
+
+You can also choose **Hoofdvolume (alles)** *(master volume)* or **Systeemgeluiden** *(system sounds)*.
+Your choices are remembered.
+
+### Send audio to a different output (headset, aux cable, speakers)
+
+Click **Uitgangen** *(outputs)* in the top right and choose, per program, where its sound goes. For example: Spotify through the aux cable and your game through your headset.
+Windows remembers this, even after you restart the program. A channel with its own output shows it in orange below the program list.
+
+Want to do it from the nanoKONTROL2? In **Knoppen instellen**, set an S or R button to **wissel uitgang** *(switch output)*. Each press moves that program to the next output.
+
+- An aux output only shows up once a cable is plugged in.
+- Some programs only switch after you restart them.
+
+### In the background
+
+- Clicking the **X** hides the window, but the mixer keeps working.
+- You'll find it as a **blue circle with faders** in the bottom right next to the clock (possibly behind the **^** arrow).
+- **Click** the icon to open the window.
+- **Right-click** → **Afsluiten** *(quit)* to really stop the mixer.
+- Tick **"Automatisch starten met Windows"** *(start with Windows)* at the bottom and you never have to think about it again.
 
 ---
 
-## ❓ Problemen?
+## ❓ Troubleshooting
 
-**Mijn programma staat niet in de lijst.**
-Een programma verschijnt pas als het geluid maakt (of heeft gemaakt). Zet bijvoorbeeld eerst even een liedje aan in Spotify en kijk dan opnieuw.
+**My program isn't in the list.**
+A program only appears once it plays (or has played) sound. Play a song in Spotify first, for example, and check again.
 
-**Het lampje blijft rood ("niet gevonden").**
-- Haal de USB-kabel eruit en steek hem er weer in.
-- Sluit andere programma's die de nanoKONTROL2 gebruiken (bijvoorbeeld een DAW, OBS-plugins of de Korg Kontrol Editor). Windows laat maar één programma tegelijk met de nanoKONTROL2 praten.
+**The light stays red ("niet gevonden" / not found).**
+- Unplug the USB cable and plug it back in.
+- Close other programs that use the nanoKONTROL2 (for example a DAW, OBS plugins or the Korg Kontrol Editor). Windows only lets one program talk to the nanoKONTROL2 at a time.
 
-**De schuiven doen niets.**
-De mixer werkt met de standaardinstelling van de nanoKONTROL2 (CC-modus) en met de DAW/Mackie-modus.
-Heb je de knoppen ooit zelf anders ingesteld in de Korg Kontrol Editor? Zet hem dan terug naar de fabrieksinstellingen.
+**The faders do nothing.**
+The mixer works with the nanoKONTROL2's default setting (CC mode) and with DAW/Mackie mode.
+Did you ever change the controls in the Korg Kontrol Editor? Then reset it to the factory settings.
 
-**De lampjes van de M-knoppen gaan niet aan als ik demp.**
-Dat is de standaardinstelling van de nanoKONTROL2. Wil je dat de lampjes laten zien wat gedempt is?
-Open de **Korg Kontrol Editor**, zet **LED Mode** op **External** en sla het op in de nanoKONTROL2. Dit hoeft maar één keer.
+**The button lights don't turn on when I mute.**
+That's the nanoKONTROL2's default setting. Want the lights to show what is muted (or soloed)?
+Open the **Korg Kontrol Editor**, set **LED Mode** to **External** and write it to the nanoKONTROL2. You only need to do this once.
 
 ---
 
-## 🗑️ Verwijderen
+## 🗑️ Uninstall
 
-Windows-instellingen → **Apps** → **nanoKONTROL2 Mixer** → **Verwijderen**.
+Windows Settings → **Apps** → **nanoKONTROL2 Mixer** → **Uninstall**.
 
 ---
 
 ## 🔒 Privacy
 
-De mixer werkt volledig offline. Er wordt niets verzonden of bijgehouden.
+The mixer works completely offline. Nothing is sent or tracked.
 
 ---
 
-*Dit is een onafhankelijk hobbyproject en heeft niets te maken met Korg. Korg en nanoKONTROL2 zijn merken van Korg Inc.*
+*This is an independent hobby project and has nothing to do with Korg. Korg and nanoKONTROL2 are trademarks of Korg Inc.*
