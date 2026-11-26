@@ -3,9 +3,7 @@
 Control the volume of your Windows programs with the faders and knobs of your **Korg nanoKONTROL2**.
 Spotify quieter, Discord louder, game muted: just move a fader, no alt-tabbing.
 
-Simple, and it runs invisibly in the background.
-
-> **Note:** the app itself is in Dutch. Labels from the app are shown below as **Dutch label** *(English meaning)*.
+Simple, available in English and Dutch, and it runs invisibly in the background.
 
 ---
 
@@ -37,7 +35,7 @@ A shortcut is added to your desktop and Start menu.
 ## 🎚️ Usage
 
 1. Plug in your nanoKONTROL2. The light in the top right of the window turns **green**.
-2. For each channel, pick a program from the list for the fader (**Schuif**) and, if you like, for the knob (**Draaiknop**).
+2. For each channel, pick a program from the list for the **Fader** and, if you like, for the **Knob**.
 3. Done!
 
 | On the nanoKONTROL2 | What it does |
@@ -52,23 +50,23 @@ A shortcut is added to your desktop and Start menu.
 | **◀◀ and ▶▶** | Previous / next track |
 | **Track ◀ and ▶** | Previous / next track |
 
-These are the defaults. Use **Knoppen instellen** *(button settings)* in the top right to choose what each S, R and transport button does, for example:
+These are the defaults. Use **Button settings** in the top right to choose what each S, R and transport button does, for example:
 
 - Mute the master volume, or master volume +5% / −5%
-- **Schuif → programma dat voorop staat** *(fader → program in front)*: click into a program (e.g. a game), press the button, and that fader controls that program from then on.
+- **Fader → program in front**: click into a program (e.g. a game), press the button, and that fader controls that program from then on.
 - Switch the output device (see below)
 
 The transport buttons act like the media keys on a keyboard, so they work with Spotify, YouTube, VLC and most other players.
 
-You can also choose **Hoofdvolume (alles)** *(master volume)* or **Systeemgeluiden** *(system sounds)*.
+You can also choose **Master volume (everything)** or **System sounds**.
 Your choices are remembered.
 
 ### Send audio to a different output (headset, aux cable, speakers)
 
-Click **Uitgangen** *(outputs)* in the top right and choose, per program, where its sound goes. For example: Spotify through the aux cable and your game through your headset.
+Click **Outputs** in the top right and choose, per program, where its sound goes. For example: Spotify through the aux cable and your game through your headset.
 Windows remembers this, even after you restart the program. A channel with its own output shows it in orange below the program list.
 
-Want to do it from the nanoKONTROL2? In **Knoppen instellen**, set an S or R button to **wissel uitgang** *(switch output)*. Each press moves that program to the next output.
+Want to do it from the nanoKONTROL2? In **Button settings**, set an S or R button to **switch output**. Each press moves that program to the next output.
 
 - An aux output only shows up once a cable is plugged in.
 - Some programs only switch after you restart them.
@@ -78,8 +76,12 @@ Want to do it from the nanoKONTROL2? In **Knoppen instellen**, set an S or R but
 - Clicking the **X** hides the window, but the mixer keeps working.
 - You'll find it as a **blue circle with faders** in the bottom right next to the clock (possibly behind the **^** arrow).
 - **Click** the icon to open the window.
-- **Right-click** → **Afsluiten** *(quit)* to really stop the mixer.
-- Tick **"Automatisch starten met Windows"** *(start with Windows)* at the bottom and you never have to think about it again.
+- **Right-click** → **Quit** to really stop the mixer.
+- Tick **"Start with Windows"** at the bottom and you never have to think about it again.
+
+### Language
+
+The mixer is available in **English** and **Dutch (Nederlands)**. It starts in the language of your Windows; switch it any time with **Language** in the bottom right.
 
 ---
 
@@ -88,7 +90,7 @@ Want to do it from the nanoKONTROL2? In **Knoppen instellen**, set an S or R but
 **My program isn't in the list.**
 A program only appears once it plays (or has played) sound. Play a song in Spotify first, for example, and check again.
 
-**The light stays red ("niet gevonden" / not found).**
+**The light stays red ("not found").**
 - Unplug the USB cable and plug it back in.
 - Close other programs that use the nanoKONTROL2 (for example a DAW, OBS plugins or the Korg Kontrol Editor). Windows only lets one program talk to the nanoKONTROL2 at a time.
 
